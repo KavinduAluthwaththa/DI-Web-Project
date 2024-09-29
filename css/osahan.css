@@ -1,31 +1,9 @@
-/*
-Template Name: VIDOE - Video Streaming Website HTML Template
-Author: Askbootstrap
-Author URI: https://themeforest.net/user/askbootstrap
-Version: 1.0
-*/
-/*
-	-- Body 
-	-- Nav
-	-- Sidebar
-	-- Customize Bootstrap
-	-- Category Slider
-	-- Video Card
-	-- Channels Card
-	-- Upload Details
-	-- Watch History
-	-- Single Channel
-    -- Video Page
-    -- My Account
-	-- Footer
-*/
-/* Body */
  html {
      position: relative;
      min-height: 100%;
 }
  body {
-     background-color: #fafafa;
+     background-color: #a581ee;
      color: #888;
      font-size: 13px;
      height: 100%;
@@ -36,6 +14,7 @@ Version: 1.0
      display: -webkit-box;
      display: -ms-flexbox;
      display: flex;
+     color: white;
 }
  #wrapper #content-wrapper {
      overflow-x: hidden;
@@ -59,7 +38,6 @@ Version: 1.0
  body.fixed-nav #content-wrapper {
      margin-top: 56px;
      padding-left: 90px;
-}
 }
  body.fixed-nav.sidebar-toggled #content-wrapper {
      padding-left: 0;
@@ -112,7 +90,6 @@ Version: 1.0
 .intro-page img {
     border: 5px solid #fff;
     border-radius: 12px !important;
-    box-shadow: 0 0 21px #ccc;
 }
 .intro-page p a {
     color: #000 !important;
@@ -394,7 +371,6 @@ Version: 1.0
     z-index: 99;
 }
  .osahan-nav {
-     box-shadow: 0 0 10px #f2f2f2;
      padding: 0;
 }
  .osahan-navbar-search .form-control {
@@ -662,7 +638,6 @@ Version: 1.0
 .right-action-link .fa {
     background: #fff none repeat scroll 0 0;
     border-radius: 50px;
-    box-shadow: 0 0 6px #ececec;
     display: inline-block;
     height: 20px;
     line-height: 19px;
@@ -762,7 +737,6 @@ Version: 1.0
  .category-item img {
      background: #fff none repeat scroll 0 0;
      border-radius: 50px;
-     box-shadow: 0 0 2px #ccc;
      height: 60px;
      margin: 1px 0 8px;
      object-fit: scale-down;
@@ -776,7 +750,6 @@ Version: 1.0
  .category-item {
      background: #fff none repeat scroll 0 0;
      border-radius: 2px;
-     box-shadow: 0 0 6px #ececec;
      margin: 6px 2px;
      padding: 24px 12px;
      text-align: center;
@@ -802,7 +775,6 @@ Version: 1.0
 }
  .video-card-image {
      border-radius: 2px;
-     box-shadow: 0 0 11px #ececec;
      overflow: hidden;
      position: relative;
 }
@@ -872,7 +844,6 @@ Version: 1.0
  .video-card {
      background: #fff none repeat scroll 0 0;
      border-radius: 2px;
-     box-shadow: 0 0 11px #ececec;
      transition-duration: 0.4s;
 }
  .video-card-body {
@@ -910,7 +881,6 @@ Version: 1.0
  .channels-card {
      background: #fff none repeat scroll 0 0;
      border-radius: 2px;
-     box-shadow: 0 0 11px #ececec;
      padding: 24px 12px;
      position: relative;
      text-align: center;
@@ -948,7 +918,6 @@ Version: 1.0
  .channels-card-image img {
      background: #fff none repeat scroll 0 0;
      border-radius: 50px;
-     box-shadow: 0 0 2px #ccc;
      height: 80px;
      margin: 1px 0 8px;
      object-fit: scale-down;
@@ -1066,7 +1035,6 @@ Version: 1.0
 }
  .single-channel-nav {
      background: #fff none repeat scroll 0 0 !important;
-     box-shadow: 0 0 11px #ececec;
      padding: 0rem 30px 0;
 }
  .channel-brand {
@@ -1121,7 +1089,6 @@ Version: 1.0
      padding: 15px;
      background: #fff none repeat scroll 0 0;
      border-radius: 2px;
-     box-shadow: 0 0 11px #ececec;
      transition-duration: 0.4s;
 }
  .single-video-title h2 {
