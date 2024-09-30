@@ -3,8 +3,8 @@
      min-height: 100%;
 }
  body {
-     background-color: #a581ee;
-     color: #888;
+     background-color: #03373e;
+     color: #f2f2f2b0;
      font-size: 13px;
      height: 100%;
 }
@@ -14,7 +14,7 @@
      display: -webkit-box;
      display: -ms-flexbox;
      display: flex;
-     color: white;
+     color: rgb(99, 99, 99);
 }
  #wrapper #content-wrapper {
      overflow-x: hidden;
@@ -138,13 +138,13 @@
 }
  .sidebar {
      width: 90px !important;
-     background: #ff516b;
+     background: #fcfcfc;
     /* Old browsers */
-     background: -moz-linear-gradient(-45deg, #ff516b 0%, #826cfd 100%);
+     background: -moz-linear-gradient(-45deg, #05ffffaf 0%, #000706b6 100%);
     /* FF3.6-15 */
-     background: -webkit-linear-gradient(-45deg, #ff516b 0%,#826cfd 100%);
+     background: -webkit-linear-gradient(-45deg, #3efff5 0%,#011513 100%);
     /* Chrome10-25,Safari5.1-6 */
-     background: linear-gradient(135deg, #ff516b 0%,#826cfd 100%);
+     background: linear-gradient(135deg, #25fff89b 0%,#00000090 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff516b', endColorstr='#826cfd',GradientType=1 );
     /* IE6-9 fallback on horizontal gradient */
@@ -779,8 +779,8 @@
      position: relative;
 }
  .time {
-     background: #f5234a none repeat scroll 0 0;
-     border-radius: 2px;
+     background: #000000cc none repeat scroll 0 0;
+     border-radius: 5px;
      bottom: 5px;
      color: #fff;
      font-size: 11px;
@@ -814,7 +814,7 @@
      background: #000 none repeat scroll 0 0;
      border-radius: 2px;
      bottom: 0;
-     color: #fff;
+     color: #e71111;
      font-size: 35px;
      left: 0;
      opacity: 0.4;
@@ -843,11 +843,12 @@
 }
  .video-card {
      background: #fff none repeat scroll 0 0;
-     border-radius: 2px;
+     border-radius: 15px;
      transition-duration: 0.4s;
 }
  .video-card-body {
      padding: 12px;
+     border-radius: 10px;
 }
  .video-card-list .video-card-image {
      float: left;
@@ -879,29 +880,29 @@
 }
 /* Channels Card */
  .channels-card {
-     background: #fff none repeat scroll 0 0;
-     border-radius: 2px;
+     background: #000000a8 none repeat scroll 0 0;
+     border-radius: 10px;
      padding: 24px 12px;
      position: relative;
      text-align: center;
      transition-duration: 0.4s;
 }
  .channels-card::after {
-     background: #dcdcdc none repeat scroll 0 0;
+     background: #00000047 none repeat scroll 0 0;
      border-radius: 0 0 5px 6px;
      bottom: -4px;
      content: "";
      height: 7px;
-     left: 15px;
+     left: 5px;
      position: absolute;
-     right: 15px;
+     right: 5px;
      z-index: -1;
 }
  .channels-card:hover::after {
-     background: #cccccc none repeat scroll 0 0;
+     background: #00000056 none repeat scroll 0 0;
 }
  .channels-title a {
-     color: #000;
+     color: #ffffff;
      font-weight: 500;
      text-decoration: none;
 }
@@ -929,7 +930,7 @@
 }
 /* Login Pages */
  .login-main-wrapper {
-     background: #ff516b;
+     background: #000000;
     /* Old browsers */
      background: -moz-linear-gradient(-45deg, #ff516b 0%, #826cfd 100%);
     /* FF3.6-15 */
