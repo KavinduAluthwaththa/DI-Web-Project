@@ -974,17 +974,18 @@ a:hover, h1, h2, h3, h4, h5, h6 {
     font-size: 15px;
     padding: 12px 16px;
 }
-.login-main-right .owl-theme .owl-controls .owl-page.active span, .login-main-right .owl-theme .owl-controls .owl-page span:hover {
-    background: #ff516b;
+.login-main-wrapper {
+    background: #000000;
    /* Old browsers */
     background: -moz-linear-gradient(135deg, #25fff89b 0%,black 100%);
    /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #ff516b 0%,#826cfd 100%);
+    background: -webkit-linear-gradient(135deg, #25fff89b 0%,black 100%);
    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #ff516b 0%,#826cfd 100%);
+    background: linear-gradient(135deg, #25fff89b 0%,black 100%);
    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff516b', endColorstr='#826cfd',GradientType=1 );
    /* IE6-9 fallback on horizontal gradient */
+    height: calc(100vh - 0rem);
 }
 /* Upload Details */
 .imgplace {
