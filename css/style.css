@@ -367,25 +367,29 @@ body.sidebar-toggled footer.sticky-footer {
    position: sticky;
    top: 0;
    z-index: 99;
+   background-color: #03373e;
 }
 .User-nav {
     padding: 0;
 }
 .User-navbar-search .form-control {
-    background: #eceff0 none repeat scroll 0 0;
+    background: #42424295 none repeat scroll 0 0;
     border: medium none;
     font-size: 14px;
     max-width: 607px !important;
     width: 607px !important;
+    border-radius: 20px;
+    box-shadow: inset;
 }
 .User-navbar-search {
     margin-right: 84px !important;
 }
 .User-navbar-search .btn {
-    background: #eceff0 none repeat scroll 0 0;
+    background: #000000 none repeat scroll 0 0;
     border: medium none;
     font-size: 14px;
     padding: 0 18px;
+    border-radius: 20px;
 }
 .User-right-navbar .nav-link {
     padding: 17px 13px !important;
@@ -674,7 +678,7 @@ label {
     margin: 0 0 5px;
 }
 a {
-    color: #ff516b;
+    color: #dbdbdb;
     text-decoration: none !important;
 }
 .btn {
@@ -718,7 +722,7 @@ a:hover, h1, h2, h3, h4, h5, h6 {
     line-height: 20px;
 }
 .pagination .page-item.active .page-link {
-    background: #ff516b none repeat scroll 0 0;
+    background: #494949c2 none repeat scroll 0 0;
     border-radius: 2px;
     color: #000000;
     height: 30px;
@@ -735,7 +739,7 @@ a:hover, h1, h2, h3, h4, h5, h6 {
 }
 /* Category Slider */
 .category-item img {
-    background: #fff none repeat scroll 0 0;
+    background: #000000a7 none repeat scroll 0 0;
     border-radius: 50px;
     height: 60px;
     margin: 1px 0 8px;
@@ -748,7 +752,7 @@ a:hover, h1, h2, h3, h4, h5, h6 {
     transition-duration: 0.4s;
 }
 .category-item {
-    background: #fff none repeat scroll 0 0;
+    background: #000000b7 none repeat scroll 0 0;
     border-radius: 2px;
     margin: 6px 2px;
     padding: 24px 12px;
